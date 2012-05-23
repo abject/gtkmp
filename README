@@ -1,6 +1,7 @@
 # Basic movie player made in GTK+ with Python
 
-Copyright 2012, abject
+# Copyright
+	Copyright 2012, abject
 
 # License GNU GPL
     This program is free software: you can redistribute it and/or modify
@@ -16,6 +17,9 @@ Copyright 2012, abject
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+# Requirement
+	You need python and GTK+
+
 # How to use it?
-Use it simply by type the following in a promt:
-$ python movieplayer.py
+	Use it simply by type the following in a promt:
+	$ python gtkmp.py
