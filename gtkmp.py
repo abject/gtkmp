@@ -157,7 +157,7 @@ class PlayerFrame(gtk.Table):
         dialog.connect("destroy", lambda w: dialog.destroy())
         statut = dialog.run()
         if statut == gtk.RESPONSE_OK:
-            self.Screen.loadfile(dialog.get_filename())
+            self.Screen.loadfile(dialog.get_filename().replace(' ', '\ '))
         dialog.destroy()
 
 class Root:
@@ -188,7 +188,7 @@ class Root:
         ## Send signal to quit mplayer properly
         self.screen.Screen.quit()
         ## Wait mplayer is closed
-        time.sleep(1)
+        time.sleep(0.1)
         ## Quit main GUI
         gtk.main_quit()
 
