@@ -2,7 +2,7 @@
 #-*-coding: utf8 -*-
 
 """
-	Copyright 2012, abject
+	Copyright 2012, abject, abject[at]live[dot].fr
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
