@@ -24,7 +24,7 @@ import gtk
 import os
 import time
 
-
+## Path to FIFO file
 PIPE_PATH = '/tmp/mplayer'
 
 class Player(gtk.Socket):
