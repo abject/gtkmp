@@ -2,6 +2,8 @@
 #-*-coding: utf8 -*-
 
 """
+    gtkmp program, basic movie player with GTK and python
+
 	Copyright 2012, abject, abject[at]live[dot].fr
 
     This program is free software: you can redistribute it and/or modify
